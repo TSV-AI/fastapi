@@ -1,2 +1,4 @@
-fastapi==0.100.0
-hypercorn==0.14.4
+fastapi
+hypercorn  # Or uvicorn[standard], matching your start command
+asyncpg    # For PostgreSQL
+# pandas    # Optional, if you prefer to use pandas for CSV generation
